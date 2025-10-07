@@ -22,9 +22,9 @@ const BuyPromoCodePage: React.FC<BuyPromoCodePageProps> = ({ onBack, user }) => 
   ];
 
   const bankDetails = {
-    bankName: "First Bank",
-    accountNumber: "3119876543",
-    accountName: "Fair Monie Pay"
+    bankName: "VFD MFB", 
+    accountNumber: "1041227312",
+    accountName: "CHIDERA COLLINS OKORIE"
   };
 
   const copyToClipboard = (text: string, label: string) => {
