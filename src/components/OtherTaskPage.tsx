@@ -92,7 +92,7 @@ const OtherTaskPage: React.FC<OtherTaskPageProps> = ({ onBack, user, onCreditBal
   };
 
   const handleJoinWhatsApp = () => {
-    window.open('https://whatsapp.com/channel/0029VapNwQs8BYJ0qTJcdB2h', '_blank');
+    window.open('https://t.me/realtechrt', '_blank');
     
     // Wait a bit for user to join, then mark as completed
     setTimeout(() => {
