@@ -13,7 +13,7 @@ interface InviteEarnProps {
 
 const InviteEarn: React.FC<InviteEarnProps> = ({ onBack, user, onUpdateBalance }) => {
   const [referralCode] = useState(`FMP${user.name.toUpperCase().slice(0, 3)}${Math.random().toString(36).slice(2, 8).toUpperCase()}`);
-  const [referralLink] = useState(`https://fairmoniepayregistration.vercel.app/?ref=${referralCode}`);
+  const [referralLink] = useState(`https://fairmoniepay-site-2025.vercel.app/?ref=${referralCode}`);
   const [totalEarnings, setTotalEarnings] = useState(0);
   const [totalReferrals, setTotalReferrals] = useState(0);
 
