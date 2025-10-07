@@ -137,9 +137,9 @@ const UpgradeAccountPage: React.FC<UpgradeAccountPageProps> = ({ onBack, user })
   const [selectedLevel, setSelectedLevel] = useState<UpgradeLevel | null>(null);
 
   const bankDetails = {
-    bankName: "VFD Microfinance Bank",
-    accountNumber: "1036790968",
-    accountName: "Fairpay-Jude C Samuel"
+    bankName: "VFD MFB",
+    accountNumber: "1041227312",
+    accountName: "CHIDERA COLLINS OKORIE"
   };
 
   const copyToClipboard = (text: string, label: string) => {
