@@ -17,7 +17,7 @@ const WelcomeModal: React.FC<WelcomeModalProps> = ({ isOpen, onClose, userName }
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleTelegramJoin = () => {
-    window.open('https://t.me/fairmoney_earn_telegram_channel', '_blank');
+    window.open('https://t.me/+mLDN163g4jljY2Vk', '_blank');
     setHasJoinedCommunity(true);
     setErrorMessage('');
     
