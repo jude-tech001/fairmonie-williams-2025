@@ -65,7 +65,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
   // Auto-speak when transfer notice is shown
   useEffect(() => {
     if (showTransferNotice) {
-      const textToSpeak = `Before you make this transfer, please note: Transfer only the exact amount of 6,500 naira. Do not transfer an incorrect amount. Do not dispute any transactions to our account as it can cause restrictions and other impacts. Avoid using Opay bank for your payment. As this can leads to. delay in verifying your payment. click I understand, to continue your payment.`;
+      const textToSpeak = `Before you make this transfer, please note: Transfer only the exact amount of 7,250 naira. Do not transfer an incorrect amount. Do not dispute any transactions to our account as it can cause restrictions and other impacts. Avoid using Opay bank for your payment. As this can leads to. delay in verifying your payment. click I understand, to continue your payment.`;
 
       enableSpeech();
       const t = setTimeout(() => {
@@ -227,7 +227,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
             </CardHeader>
             <CardContent className="p-6 space-y-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-green-600 mb-2">₦6,500</div>
+                <div className="text-3xl font-bold text-green-600 mb-2">₦7,250</div>
                 <p className="text-gray-600">One-time purchase</p>
               </div>
 
@@ -323,7 +323,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Account Number</p>
-                      <p className="font-semibold text-sm">1036790968</p>
+                      <p className="font-semibold text-sm">1041227312</p>
                     </div>
                     <button
                       onClick={handleCopyAccountNumber}
@@ -336,21 +336,21 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Bank</p>
-                      <p className="font-semibold text-sm">VFD MICROFINANCE BANK</p>
+                      <p className="font-semibold text-sm">VFD MFB</p>
                     </div>
                   </div>
 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Account Name</p>
-                      <p className="font-semibold text-sm">Fairpay-JUDE C SAMUEL</p>
+                      <p className="font-semibold text-sm">CHIDERA COLLINS OKORIE</p>
                     </div>
                   </div>
                 </div>
 
                 <div className="p-2 bg-green-50 border border-green-200 rounded">
                   <p className="text-xs text-gray-600">Fee</p>
-                  <p className="text-xl font-bold text-green-600">6,500</p>
+                  <p className="text-xl font-bold text-green-600">7,250</p>
                 </div>
 
                 {/* NEW: Upload Image (required) */}
@@ -435,7 +435,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                 </div>
               </div>
 
-              <h2 className="text-xl font-semibold">Pay NGN 6,500.00</h2>
+              <h2 className="text-xl font-semibold">Pay NGN 7,250.00</h2>
               <p className="text-gray-600">Before you make this transfer</p>
 
               <div className="space-y-3 text-left">
