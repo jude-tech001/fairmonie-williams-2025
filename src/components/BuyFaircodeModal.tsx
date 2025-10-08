@@ -316,7 +316,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                   </div>
 
                   <h2 className="text-lg font-semibold text-green-800 mb-2">Make Payment</h2>
-                  <p className="text-green-600 text-sm mb-4">Transfer to the account below</p>
+                  <p className="text-green-600 text-sm mb-4">Transfer to the account below, your code will display here once you payment is verified ensure you upload your receipt</p>
                 </div>
 
                 <div className="space-y-2">
