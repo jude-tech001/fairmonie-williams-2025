@@ -137,8 +137,8 @@ const UpgradeAccountPage: React.FC<UpgradeAccountPageProps> = ({ onBack, user })
   const [selectedLevel, setSelectedLevel] = useState<UpgradeLevel | null>(null);
 
   const bankDetails = {
-    bankName: "Sparkle MFB",
-    accountNumber: "1002999917",
+    bankName: "Fairmoney MFB",
+    accountNumber: "9164234650",
     accountName: "CHIDERA OKORIE"
   };
 
