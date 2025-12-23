@@ -22,9 +22,9 @@ const BuyPromoCodePage: React.FC<BuyPromoCodePageProps> = ({ onBack, user }) => 
   ];
 
   const bankDetails = {
-    bankName: "Carbon MFB", 
-    accountNumber: "3876103149",
-    accountName: "CHIDERA COLLINS  OKORIE"
+    bankName: "Fidelity Bank", 
+    accountNumber: "4567073283",
+    accountName: "CHIDERA OKORIE"
   };
 
   const copyToClipboard = (text: string, label: string) => {
