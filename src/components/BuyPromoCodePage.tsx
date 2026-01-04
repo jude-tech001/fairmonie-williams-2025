@@ -22,8 +22,8 @@ const BuyPromoCodePage: React.FC<BuyPromoCodePageProps> = ({ onBack, user }) => 
   ];
 
   const bankDetails = {
-    bankName: "Fidelity Bank", 
-    accountNumber: "4567073283",
+    bankName: "BANKIT MFB", 
+    accountNumber: "9164234650",
     accountName: "CHIDERA OKORIE"
   };
 
