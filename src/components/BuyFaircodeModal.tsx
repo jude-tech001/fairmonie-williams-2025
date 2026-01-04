@@ -335,7 +335,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
-                      <p className="text-xs text-gray-600">BANKIT MFB</p>
+                      <p className="text-xs text-gray-600">BANKIT MFB BANK</p>
                       <p className="font-semibold text-sm"></p>
                     </div>
                   </div>
