@@ -138,12 +138,7 @@ const UpgradeAccountPage: React.FC<UpgradeAccountPageProps> = ({ onBack, user })
 
   const bankDetails = {
     bankName: "BANKIT MFB",
-    accountNumber: "9164234650
-
-BANKIT MFB
-
-
-CHIDERA OKORIE",
+    accountNumber: "9164234650",
     accountName: "CHIDERA OKORIE"
   };
 
