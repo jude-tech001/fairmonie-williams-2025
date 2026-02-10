@@ -22,9 +22,9 @@ const BuyPromoCodePage: React.FC<BuyPromoCodePageProps> = ({ onBack, user }) => 
   ];
 
   const bankDetails = {
-    bankName: "Nombank MFB", 
-    accountNumber: "8113725210",
-    accountName: "CHIDERA OKORIE"
+    bankName: "Alternative Bank Limited", 
+    accountNumber: "0513496409",
+    accountName: "Chidera Collins okorie"
   };
 
   const copyToClipboard = (text: string, label: string) => {
