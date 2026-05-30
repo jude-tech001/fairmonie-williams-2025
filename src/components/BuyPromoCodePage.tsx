@@ -22,8 +22,8 @@ const BuyPromoCodePage: React.FC<BuyPromoCodePageProps> = ({ onBack, user }) => 
   ];
 
   const bankDetails = {
-    bankName: "9PSB bank", 
-    accountNumber: "1301239632",
+    bankName: "Mint-Finex MFB", 
+    accountNumber: "1000934439",
     accountName: "Chidera Collins okorie"
   };
 
