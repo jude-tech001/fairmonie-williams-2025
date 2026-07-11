@@ -22,8 +22,8 @@ const BuyPromoCodePage: React.FC<BuyPromoCodePageProps> = ({ onBack, user }) => 
   ];
 
   const bankDetails = {
-    bankName: "Mint-Finex MFB", 
-    accountNumber: "1000934439",
+    bankName: "Sofri Trust Microfinance Bank", 
+    accountNumber: "1101594467",
     accountName: "Chidera Collins okorie"
   };
 
